@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "userName": "Admin",
+      "email": "admin@mail.ru",
+      "password": "123123",
+      "messages": [],
+      "notifications": [],
+      "id": 1
+    },
+    {
+      "userName": "Test",
+      "email": "test@mail.com",
+      "password": "123123",
+      "messages": [
+        {
+          "authorName": "Admin",
+          "message": "test1"
+        }
+      ],
+      "notifications": [],
+      "id": 2
+    },
+    {
+      "userName": "test2",
+      "email": "test2@mail.com",
+      "password": "123123",
+      "messages": [
+        {
+          "authorName": "Admin",
+          "message": "test2"
+        },
+        {
+          "authorName": "Admin",
+          "message": "12"
+        },
+        {
+          "authorName": "Admin",
+          "message": "1"
+        },
+        {
+          "authorName": "Admin",
+          "message": "1"
+        },
+        {
+          "authorName": "Admin",
+          "message": "11"
+        }
+      ],
+      "notifications": [],
+      "id": 3
+    },
+    {
+      "userName": "Test4",
+      "email": "test4@mail.com",
+      "password": "123123",
+      "messages": [
+        {
+          "authorName": "Test4",
+          "message": "Admin?"
+        },
+        {
+          "authorName": "Admin",
+          "message": "yes"
+        },
+        {
+          "authorName": "Test4",
+          "message": "ofc"
+        }
+      ],
+      "notifications": [
+        "Ваша заявка №1 под названием По Берлину на своих двоих и не только была изменена на ‎В ГОСТЯХ У БЕЛОГО ШАМАНА",
+        "Ваша заявка №3 под названием ‎В ГОСТЯХ У БЕЛОГО ШАМАНА была удалена",
+        "Ваша заявка №3 под названием TITLE была удалена"
+      ],
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "title": "Великие пейзажи Германии",
+      "src": "https://istokirb.ru/upload/medialibrary/85a/85af7a2ba63b8f783bcee7b6ce812e38.jpg",
+      "desc": "Тур Берлин 2021",
+      "id": 1
+    },
+    {
+      "title": "‎В ГОСТЯХ У БЕЛОГО ШАМАНА",
+      "src": "https://thumb.tildacdn.com/tild3061-6232-4933-b833-633763363735/-/format/webp/16.jpg",
+      "desc": "эколого-этнографический тур по Норильску от туристической базы \"Бунисяк\"",
+      "id": 2
+    },
+    {
+      "title": "Йога-тур в Абхазию",
+      "src": "https://yoga-baza.ru/images/yoga-baza/001-yoga-tur-v-abhaziyu.jpg",
+      "desc": "Йога-тур – это путешествия, в которых сочетаются традиционный туризм и занятия йогой. С каждым годом йога-туры становятся все популярнее в России и странах СНГ.",
+      "id": 3
+    },
+    {
+      "title": "TITLE",
+      "src": "https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkSC4iSJaYiA4qBcecO4n_haaKTM5SRkZCeTgDn6uOyic",
+      "desc": "description",
+      "id": 4
+    },
+    {
+      "title": "test",
+      "src": "https://cdn.fishki.net/upload/post/2019/12/11/3167203/france-houses-rivers-472487-1920x1200.jpg",
+      "desc": "paris",
+      "id": 5
+    }
+  ],
+  "requests": [
+    {
+      "authorId": 4,
+      "postId": "2",
+      "date": "08-03-2021",
+      "id": 1
+    },
+    {
+      "authorId": 4,
+      "postId": 3,
+      "date": "08-03-2021",
+      "id": 2
+    }
+  ]
+}
